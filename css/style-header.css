@@ -1,0 +1,182 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    margin: auto;
+}
+/*----------- Header ------------*/
+.top {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 910px;
+}
+/*--------------------------------*/
+.telephone {
+    display: flex;
+    align-content: flex-end;
+    margin: 11px 0 0 3px;
+    height: 25px;
+    width: auto;
+}
+
+.icon {
+    background: rgba(0, 0, 0, 0);
+    height: 19px;
+    margin: 2px 4px 6px 2px;
+    width: 20px;
+}
+
+.phone-number {
+    background-color: rgba(0, 0, 0, 0);
+    color: #5e696d;
+    font-family: "Arial Unicode MS", sans-serif;
+    font-size: 19px;
+    height: 20px;
+    width: 268px;
+}
+/*--------------------------------*/
+.sign-in-form {
+    align-items: flex-start;
+    background: linear-gradient(to top, #0d3458, #1f6685);
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px 1px #cbcbcb;
+    display: flex;
+    height: 25px;
+    margin: 8px 0 0 15px;
+    width: 495px;
+}
+
+.user {
+    height: 18px;
+    margin: 4px 1px 4px 8px;
+    width: 13px;
+}
+
+#log-in, #password {
+    height: 15px;
+    width: 110px;
+    margin: 3px;
+}
+
+::-webkit-input-placeholder {font-size: 10px;}
+::-moz-placeholder          {font-size: 10px;}/* Firefox 19+ */
+:-moz-placeholder           {font-size: 10px;}/* Firefox 18- */
+:-ms-input-placeholder      {font-size: 10px;}
+
+.sign-in-form a {
+    background: 0,0,0, 0;
+    color: #fff;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    margin: 4px 0 0 3px;
+    text-decoration: none;
+}
+
+.forget-password {
+    background: 0,0,0, 0;
+    display: inline;
+    margin: 2px 0 0 17px;
+}
+
+.forget-password a {
+    color: #bfbfbf;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+/*--------------------------------*/
+.contact-us {
+    align-items: center;
+    border: 1px solid #d7dcdd;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    margin: 8px 0 0 18px;
+    width: 75px;
+}
+
+.contact-us img {
+    padding: 3px 0 0 0;
+    margin: 0 2px 6px 0;
+}
+
+/*--------------------------------*/
+nav {
+    background: linear-gradient(to top, #030303, #505860);
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px 1px #cbcbcb;;
+    display: flex;
+    height: 35px;
+    margin-bottom: 4px;
+    width: auto;
+}
+
+.top-menu {
+    background-color: rgba(3, 3, 3, 0);
+    display: flex;
+    justify-content: center;
+
+}
+
+.top-menu li {
+    background-color: rgba(3, 3, 3, 0);
+    list-style: none;
+    margin: 2px 3px;
+    padding: 3px 15px;
+
+}
+
+.top-menu li:hover a {
+    color: #fff;
+
+}
+
+.top-menu li:hover {
+    background: linear-gradient(to top, #0c3357, #1f6787);
+    border-radius: 50px;
+}
+
+.top-menu a {
+    background-color: rgba(3, 3, 3, 0);
+    color: #b1bcc0;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+/*--------------------------------*/
+.counter {
+    align-items: center;
+    background-color: rgba(3, 3, 3, 0);
+    display: flex;
+    padding: 0 0 0 73px;
+    width: 231px;
+}
+
+.counter img {
+    background: rgba(0, 0, 0, 0);
+    margin: 3px 0 6px 2px;
+}
+
+.counter p {
+    background-color: rgba(3, 3, 3, 0);
+    color: #b1bcc0;
+    font-size: 13px;
+    margin: -2px 2px 0 0;
+    padding: 0 2px 0 7px;
+}
+
+.counter a {
+    background-color: rgba(3, 3, 3, 0);
+    color: #0d5a8f;
+    font-size: 13px;
+    margin: 0 6px 0 0;
+    text-decoration: none;
+}
