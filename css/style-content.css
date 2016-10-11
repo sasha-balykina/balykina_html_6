@@ -110,6 +110,7 @@ aside {
 }
 /* --------- Product grid ----*/
 .product-grid {
+
     background: #e2e6e6;
     display: flex;
     flex-wrap: wrap;
@@ -120,37 +121,102 @@ aside {
 }
 
 figure {
+    align-items: center;
     background: #e2e6e6;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3px 0 0 23px;
     height: 175px;
+    flex-direction: column;
+    margin: 3px 0 0 23px;
+    
     width: 137px;
 }
-
-figure p {
+/* ----- Brand of a product ----*/
+.product-brand1, .product-brand2, .product-brand3 {
     background: #e2e6e6;
     color: #206988;
     font-size: 15px;
     font-weight: bold;
 }
-
-.product-name {
-    background: #e2e6e6;
+.product-brand1 {
+    margin: 8px 4px -1px 0;
+    padding: 0 0 2px 0;
+}
+.product-brand2 {
+    margin: 8px 0 -1px 17px;
+    padding: 0 0 2px 0;
+}
+.product-brand3 {
+    margin: 8px 0 -1px 33px;
+    padding: 0 0 2px 0;
+}
+/* ----- Name of a product ----*/
+.product-name1, .product-name2, .product-name3 {
+    background: rgba(0, 0, 0, 0);
+    font-size: 13px;
 }
 
-.product-img {
-    padding: 3px 31px;
+.product-name1 {
+    margin: -9px 0 -2px 3px;
+}
+.product-name2 {
+    margin: -9px 0 -2px 18px;
+}
+.product-name3 {
+    margin: -9px -12px -2px 18px;
+}
+/* ----- Photo of a product ----*/
+.product-img1, .product-img2, .product-img3 {
+    background: #fff;
     border: 1px solid #b0b9bc;
     border-radius: 7px;
-
+    height: 119px;
+    padding: 3px 31px;
+    width: 74px;
 }
 
-h4 {
+.product-img1 img {
+    margin: 1px 0 0 -2px;
+}
+.product-img2 {
+    margin: 1px  0 0 15px;
+}
+.product-img3 {
+    margin: 1px 0 0 29px;
+}
+/* ----- Price of a product ----*/
+.product-price1, .product-price2, .product-price3 {
+    align-items: center;
     background: #e2e6e6;
     color: #114165;
+    display: flex;
+    font-family: Arial, sans-serif;
     font-style: italic;
+    font-weight: bold;
+    margin: 14px 0 0 5px;
+}
+
+.product-price1 h4 {
+    margin: 1px 5px 0 4px;
+}
+.product-price2 h4 {
+    margin: 1px 0 0 22px;
+}
+.product-price2 p {
+    padding: 0 0 0 8px;
+}
+.product-price3 h4 {
+    margin: -5px 2px 0 39px;
+}
+.product-price3 p {
+    padding: 0 0 0 3px;
+}
+
+.product-price1 p, .product-price2 p, .product-price3 p {
+    font-size: 13px;
+}
+
+.first-line {
+    margin: 0 0 0 0;
 }
 /* ---------- Brand filters -----*/
 .brands {
